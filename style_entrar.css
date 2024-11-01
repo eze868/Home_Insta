@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ebee;
+}
+
+.nav_principal{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 82px;
+    background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+}
+
+.nav_principal img{
+    width: 200px;
+    color: white;
+}
+
+.btn_facebook{
+    padding: 10px 10px;
+    background-color: #42b72a;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.btn_facebook:hover{
+    background-color: #188d00;
+}
+
+.btn_facebook_1{
+    margin-bottom: 25px;
+}
+
+.btn_facebook_1 a{
+    padding: 16px 20px;
+    background-color: #42b72a;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 2px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.btn_facebook_1 a:hover{
+    background-color: #24ac09;
+}
+
+.main_container_1{
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    width: 615px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 3px;
+}
+
+.form_entrar_facebook h3{
+    padding: 5px 0;
+    margin-top: 40px;
+    font-weight: 400;
+}
+
+#login-form input{
+    display: block;
+    font-size: 14px;
+    padding: 10px 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 284px;
+    margin: 10px auto;
+}
+
+#login-form input[type="submit"]{
+    background-color: #4267b2;
+    border-color: #4267b2;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 2px;
+    height: 42px;
+    font-size: 14px;
+    padding: 0;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.line{
+    width: 284px;
+}
+
+#login-form input[type="submit"]:hover{
+    background-color: #3157a1;
+    cursor: pointer;
+}
+
+#forgot-pass{
+    margin: 20px 0;
+}
+
+#forgot-pass_1{
+    margin: 20px 0 30px 0;
+    font-size: 14px;
+}
+
+#forgot-pass_1 a,
+#forgot-pass a{
+    color: #385898;
+}
+
+#forgot-pass:hover,
+#forgot-pass_1:hover{
+    text-decoration: underline;
+}
+
+.separator span{
+    font-size: 10px;
+}
+
+@media (max-width:375px) {
+    .nav_principal img{
+        width: 160px;
+    }
+    
+    .btn_facebook{
+        padding: 8px 8px;
+    }
+
+    .main_container_1{
+        width: 95%;
+    }
+}
+
+@media (max-width:650px) {
+    .nav_principal img{
+        width: 160px;
+    }
+    
+    .btn_facebook{
+        padding: 8px 8px;
+    }
+
+    .main_container_1{
+        width: 95%;
+    }
+}
+
+
+
+
+
